@@ -10,7 +10,7 @@ const kzwEventSchema = new Schema({
   date: String,
   hour: String,
   description: String,
-  pplLimit: Number,
+  spots: Number,
   pplRegistered: Number
   //participants: [Schema.Types.ObjectId]
 });
